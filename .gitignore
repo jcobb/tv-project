@@ -1,2 +1,5 @@
 .idea
 node_modules
+public/vendor
+public/css/
+public/libs/react
