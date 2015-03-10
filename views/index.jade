@@ -2,11 +2,10 @@ doctype html
 html
     head
         link(href="/css/style.css" type="text/css" rel="stylesheet")
-        title Your basic web app structure
+        title TV Project
     body
-        h1 Welcome to your basic web app structure
-        p
-            | Checkout the files to see how it is organized.
-        p
-            | Here is an example url
-        a(href="/comments/10") Comment with id 10
+        div(id="search")
+        script(src="vendor/system.js")
+        script(src="vendor/config.js")
+        script
+            | System.import('libs/main');
