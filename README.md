@@ -1,5 +1,9 @@
-# Your starting point for your next great web app
+# TV Project
 
-The purpose for this repository is to serve as a base project for your next [Node](http://nodejs.org/) and [Express](http://expressjs.com/) web app. Clone it and you are ready to go.
+A web app which allows users to follow their favourite TV shows and be informed when the next episode will go to air.
 
-It will provide you with a simple but solid structure on which to build on. We will do our best to keep it up to date with the latest node and express versions.
+## Goals for version 1.0
+- [AUTH] Allow users to register, and log in and out.
+- [API] Allow users to search for a TV show by title, and return all matching results from the TVDB
+- [DB] Allow users to add and remove TV shows from their list of followed TV shows
+- [DB] Maintain a local copy of popular TV shows in the DB for better performance
